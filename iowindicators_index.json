@@ -1,0 +1,23 @@
+{
+    "mappings": {
+      "iowindicators": {
+	    "properties": {
+	      "indicator": {
+		"type": "keyword"
+	      },
+	      "region": {
+		"type": "keyword"
+	      },
+	      "timestamp": {
+		"type": "date"
+	      },
+	      "value": {
+		"type": "double"
+	      },
+	      "year": {
+		"type": "short"
+	      }
+	    }
+	  }
+    }
+}
