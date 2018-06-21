@@ -72,10 +72,10 @@ On the Apache webserver, configure the proxy pass to Kibana
 
 # Loading indicators in the index
 
-Run talend job ```indicator2index```.
+Run talend job ```indicator2index``` (see ```resources/talendjob.zip```).
 
 
 
 # Creating base data layers
 
-From QGIS, load the ```t_adreg``` table with level filter if needed and save file as GeoJSON in WGS84 projection. Limit the number of decimal to ```2``` to avoid to create too big files.
+From QGIS, load the ```t_adreg``` table with level filter if needed and save file as GeoJSON in WGS84 projection. Limit the number of decimal to ```2``` to avoid to create too big files (see ```resources``` folder for files).
