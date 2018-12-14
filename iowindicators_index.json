@@ -7,6 +7,12 @@
 	      },
 	      "region": {
 		"type": "keyword"
+	      },    
+	      "regionName": {
+		"type": "keyword"
+	      },
+	      "theme": {
+		"type": "keyword"
 	      },
 	      "timestamp": {
 		"type": "date"
