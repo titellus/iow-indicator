@@ -1,29 +1,25 @@
-{
-    "mappings": {
-      "_default_": {
-	    "properties": {
-	      "indicator": {
-		"type": "keyword"
-	      },
-	      "region": {
-		"type": "keyword"
-	      },    
-	      "regionName": {
-		"type": "keyword"
-	      },
-	      "theme": {
-		"type": "keyword"
-	      },
-	      "timestamp": {
-		"type": "date"
-	      },
-	      "value": {
-		"type": "double"
-	      },
-	      "year": {
-		"type": "short"
-	      }
-	    }
-	  }
-    }
-}
+{"mappings": {
+	"properties": {
+		"indicator": {
+			"type": "keyword"
+		},
+		"region": {
+			"type": "keyword"
+		},    
+		"regionName": {
+			"type": "keyword"
+		},
+		"theme": {
+			"type": "keyword"
+		},
+		"timestamp": {
+			"type": "date"
+		},
+		"value": {
+			"type": "double"
+		},
+		"year": {
+			"type": "short"
+		}
+	}
+}}
